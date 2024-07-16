@@ -22,7 +22,7 @@ public class ReverseArray {
 
         int i=0;
         int j=n-1;
-        while(i>=j){
+        while(i<j){
             int tem=arr[i];
             arr[i]=arr[j];
             arr[j]=tem;
