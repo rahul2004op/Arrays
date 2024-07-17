@@ -20,7 +20,7 @@ public class secondlargestelementinarray {
             }
         }
         for (int i = 0; i <n; i++) {
-            if(arr[i]!=max){
+            if(arr[i]>smx && arr[i]!=max){
                 smx=arr[i];
             }
         }

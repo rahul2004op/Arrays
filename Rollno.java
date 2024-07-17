@@ -8,6 +8,7 @@ public class Rollno {
                 System.out.print(i+" ");
             }
         }
+        System.out.println("\n"+arr[arr.length-1]);
     }
     
 }
