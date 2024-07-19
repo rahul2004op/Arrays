@@ -7,7 +7,7 @@ public class ReverseArray {
         for(int ele :arr){
             System.out.print(ele+" ");
         }
-        for(int i=0;i<n/2;i++){
+        for(int i=0;i<n/2;i++){  //imp
             int j=n-1-i;
             int temp=arr[i];
             arr[i]=arr[j];
