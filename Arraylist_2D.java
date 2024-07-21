@@ -23,16 +23,23 @@ public class Arraylist_2D {
         }
 
         for(int i=0;i<list.size();i++){
+            System.out.print("\n"+list.get(1));
+            break;
+        }
+        System.out.println();
+        for(int i=0;i<list.size();i++){
             System.out.print("\n"+list.get(1).get(1));
             break;
         }
+
+
 
         System.out.println("\n2nd method of printing ");
 
         for(int i=0;i<list.size();i++){
             List<Integer> x =list.get(i);
             for(int j=0;j<x.size();j++){
-                System.out.print(x.get(i));
+                System.out.print(x.get(i)+" ");
             }
             System.out.println();
         }
